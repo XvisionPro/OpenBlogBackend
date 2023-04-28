@@ -31,3 +31,18 @@ Vite v4.3.3
  Авторизирвоанные пользователи могут оставлять комментарии под постами
  
  *База данных реализована на PostgreSQL.*
+ 
+ # Как установить:
+ При условии, что уже установлен composer (composer install)
+ 
+ 1. Npm
+npm install
+
+npm run dev
+
+2. Laravel
+php artisan storage:link 
+
+php artisan migrate --seed
+
+php artisan serve
